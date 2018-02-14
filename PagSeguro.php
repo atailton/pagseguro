@@ -52,7 +52,7 @@ public function efetuaPagamentoCartao($dados) {
 		$data['installmentQuantity'] = '1';
 		//$data['noInterestInstallmentQuantity'] = '1';
 		$data['installmentValue'] = $dados['installmentValue']; //valor da parcela
-		$data['creditCardHolderName'] = $dados['creditCardHolderName']; //master, vista etc
+		$data['creditCardHolderName'] = $dados['creditCardHolderName']; //nome do titular
 		$data['creditCardHolderCPF'] = $dados['creditCardHolderCPF'];
 		$data['creditCardHolderBirthDate'] = $dados['creditCardHolderBirthDate'];
 		$data['creditCardHolderAreaCode'] = $dados['creditCardHolderAreaCode'];
